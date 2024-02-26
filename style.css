@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+
+p {
+  line-height: 1.8;
+  color: hsl(238, 22%, 44%);
+  font-size: 15px;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+  width: 85%;
+  width: 50% !important;
+  min-width: auto !important;
+  max-width: none !important;
+
+}
+
+li button {
+  color: hsl(238, 22%, 44%);
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.thirdsec {
+  padding: 40px;
+
+}
+
+.link {
+  color: hsl(170, 45%, 43%);
+}
+
+.cta {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.arrowlink {
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 25px 25px 25px black;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+.secondsec {
+  margin-top: 40px;
+}
+
+.link-container {
+  text-align: center;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.link img {
+  margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .link-container {
+    justify-content: flex-start;
+  }
+
+  .link {
+    align-items: center;
+  }
+}
+
+/* Footer */
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.social {
+  display: flex;
+  height: 3rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.facebook>svg {
+  height: 1.5rem;
+  width: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.twitter>svg {
+  height: 1.5rem;
+  width: 1.9rem;
+  margin-top: 0.5rem;
+  margin-left: 5px;
+}
+
+.instagram>svg {
+  height: 1.6rem;
+  width: 2rem;
+  margin-top: 7px;
+  margin-left: 6px;
+}
+
+.social-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 2px solid white;
+  color: white;
+  fill: white;
+  border-radius: 2.5rem;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  color: var(--clr-moderate-cyan);
+  fill: var(--clr-moderate-cyan);
+  border: 2px solid var(--clr-moderate-cyan);
+}
+
+.subscribe.flex-item {
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: hsl(243, 87%, 12%);
+  ;
+  border-radius: 20px;
+  width: 50%;
+}
+
+
+/*dark mode styles */
+
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode header {
+  background-color: #000;
+  color: #fff;
+
+  .headlogo {
+    margin-bottom: 20px;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+
+  }
+}
+
+.dark-mode footer {
+  background-color: #0000;
+  color: #fff;
+}
+
+.dark-mode section {
+  background-color: #0c0c0c;
+  color: #fff;
+
+}
+
+.dark-mode picture {
+  background-color: #000;
+
+}
+
+.dark-mode-image img {
+  filter: brightness(0);
+}
+
+
+.button-container {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.darkbutton {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.white-color {
+  filter: brightness(0) invert(1);
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+
+  .arrowlink {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .card img {
+    border-radius: 50%;
+  }
+
+  .buttonstart {
+    width: 100% !important;
+    min-width: auto !important;
+    max-width: none !important;
+  }
+
+
+}
